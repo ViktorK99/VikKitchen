@@ -1,0 +1,27 @@
+@import "./_variables.scss";
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.navbar-collapse {
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $darkBlue;
+        font-size: 18px;
+      }
+    }
+  }
+  .loginButton {
+    background-color:$Alabaster;
+    color: black !important;
+    width: 111px;
+    height: 49px;
+  }
+  .registerButton {
+    width: 180px;
+    height: 49px;
+    background-color: $darkBlue;
+  }
+}
+

@@ -1,0 +1,17 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif; }
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #14203E;
+  font-size: 18px; }
+
+.navbar-collapse .loginButton {
+  background-color: #f6f0e8;
+  color: black !important;
+  width: 111px;
+  height: 49px; }
+
+.navbar-collapse .registerButton {
+  width: 180px;
+  height: 49px;
+  background-color: #14203E; }
