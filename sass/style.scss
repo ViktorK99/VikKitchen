@@ -1,6 +1,7 @@
 @import "./_variables.scss";
 
 body {
+  color: $darkBlue;
   font-family: 'IBM Plex Sans', sans-serif;
 }
 .navbar-collapse {
@@ -8,20 +9,54 @@ body {
     .nav-item {
       .nav-link {
         color: $darkBlue;
-        font-size: 18px;
+        font-size: 22px;
       }
     }
   }
   .loginButton {
     background-color:$Alabaster;
-    color: black !important;
-    width: 111px;
-    height: 49px;
+    color: black;
+    width: 110px;
+    height: 50px;
   }
   .registerButton {
     width: 180px;
-    height: 49px;
+    height: 50px;
     background-color: $darkBlue;
   }
+}
+
+.container-fluid {
+  .heading {
+    .bold {
+      font-weight: bold;
+      font-size: 64px;
+    }
+    .recipeButton {
+      width: 180px;
+      height: 60px;
+      background-color: $darkBlue;
+      font-size: 22px;
+    }
+  }
+}
+
+.recepies {
+  .recepiImage {
+    .recipeButton {
+      background-color: $darkBlue;
+      opacity: 0;
+    }
+      &:hover .image {
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
+      }
+      &:hover .recipeButton {
+        opacity: 1;
+      }
+  }
+}
+.popularRecipes {
+  font-weight: bold;
 }
 
